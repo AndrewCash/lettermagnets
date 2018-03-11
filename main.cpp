@@ -1,8 +1,17 @@
+// Andrew Cash 2018
+
+// Determine if a phrase can fit in a speific number
+// of magnetic letters
+
 #include <iostream>
 #include <cstdlib>
 #include <string>
 
 using namespace std;
+
+
+// Functions to check if a letter shows up
+// more than a set number of times.
 
 void checkA(string s, bool &works, int &numberOfSets)
 {
@@ -397,7 +406,7 @@ int main()
     checkP(phrase, phraseWorks, numberOfSets);
     checkQ(phrase, phraseWorks, numberOfSets);
     checkR(phrase, phraseWorks, numberOfSets);
-    checkS(phrase, phraseWorks, numberOfSets );
+    checkS(phrase, phraseWorks, numberOfSets);
     checkT(phrase, phraseWorks, numberOfSets);
     checkU(phrase, phraseWorks, numberOfSets);
     checkV(phrase, phraseWorks, numberOfSets);
